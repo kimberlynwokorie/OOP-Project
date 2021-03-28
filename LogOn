@@ -1,0 +1,52 @@
+//first class
+
+class LogOn
+{
+public static void main(String[] args) 
+{
+
+Scanner sc = new Scanner(System.in);
+
+int id = sc.nextInt();
+
+String password=sc.nextLine();
+
+if ( id != 0 && password != "Null"){
+System.out.println("Welcome");
+}
+
+}
+
+}
+
+//Second class
+
+class LogOff
+{
+
+public static void main(String[] args) 
+{
+
+Scanner sc = new Scanner(System.in);
+
+int choice = sc.nextInt();
+
+switch(choice){
+
+case 1:
+
+System.out.println("Logged off");
+
+break;
+
+case 2:
+
+System.out.println("Logged on");
+
+break;
+
+}
+
+}
+
+}
